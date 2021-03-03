@@ -46,7 +46,7 @@ The Calgary Society for Equity in Technology (CSET) is a network of peers who fa
 
 CSET gives much credit to the formal institution that it bloomed from, and the work that the former directors/teachers/volunteers of Calgary School of Informal Education. Without their guidance of them, CSET would not exist. 
 
-![CSET Screen Shot](https://i.postimg.cc/C1XhZB3d/CSET-Screenshot.png)
+![CSET Screen Shot](https://i.postimg.cc/6qCdXvwG/screenshot.jpg)
 
 <!-- ### Features -->
 
