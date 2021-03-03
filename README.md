@@ -23,6 +23,7 @@
 
 <!-- BADGES -->
 <p align="center">
+<a href="https://app.netlify.com/sites/cset/deploys"><img src="https://api.netlify.com/api/v1/badges/c2a6183f-a3d3-4262-b2d8-c560ac9bd776/deploy-status" alt="Netlify Status"></a>
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/cset"> 
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/cset"> 
 <a href="https://github.com/brennanbrown/cset/search?l=html"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennanbrown/cset"></a>
@@ -139,6 +140,6 @@ See `LICENSE` for more information.
 
 ## Credit
 
-[**Water.css**](https://watercss.kognise.dev/) was created by [Kognise](https://github.com/kognise).
+This website was created with the foundation of the original [SDF Public](http://cset.sdf.org/) website. 
 
-[**Dropin Minimal CSS**](https://github.com/dohliam/dropin-minimal-css) was created by [Dohliam](https://github.com/dohliam).
+In addition, it uses the static site generator [Jekyll](https://jekyllrb.com/), the [Bootstrap](https://getbootstrap.com/) CSS framework, and the [Font Awesome](https://fontawesome.com/) toolkit.
