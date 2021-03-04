@@ -17,8 +17,12 @@ body {
   position: relative;
 }
 
+img {
+  max-width: 100%;
+}
+
 .information {
-  margin-bottom: 350px;
+  margin-bottom: 550px;
 }
 
 .footer {
