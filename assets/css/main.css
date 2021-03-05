@@ -17,14 +17,6 @@ body {
   position: relative;
 }
 
-img {
-  max-width: 100%;
-}
-
-.information {
-  margin-bottom: 550px;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -35,9 +27,8 @@ img {
   background-color: #f5f5f5;
 }
 
-/* Custom page CSS
+/* Custom CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 
 body>.container {
   padding: 60px 15px 0;
@@ -52,6 +43,18 @@ code {
   font-size: 80%;
 }
 
+img {
+  max-width: 100%;
+}
+
+.form-control {
+  width: 90%;
+}
+
+.information {
+  margin-bottom: 350px;
+}
+
 .navbar-nav a {
   font-weight: bold;
   color: #222 !important;
@@ -59,4 +62,10 @@ code {
 
 .navbar-nav a:hover {
   color: #888 !important;
+}
+
+@media only screen and (max-width : 768px) {
+  .information {
+    margin-bottom: 550px;
+  }
 }

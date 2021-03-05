@@ -143,3 +143,7 @@ See `LICENSE` for more information.
 This website was created with the foundation of the original [SDF Public](http://cset.sdf.org/) website. 
 
 In addition, it uses the static site generator [Jekyll](https://jekyllrb.com/), the [Bootstrap](https://getbootstrap.com/) CSS framework, and the [Font Awesome](https://fontawesome.com/) toolkit.
+
+For our calendar and scheduling, we use [Tockify](https://tockify.com/), and for our contact form, we use [TypeForm](https://www.typeform.com/).
+
+For accessibility, the [OpenDyslexic](https://opendyslexic.org) typeface is by [Abbie Gonzalez](https://github.com/antijingoist/opendyslexic).

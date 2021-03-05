@@ -1,4 +1,10 @@
 /* ACCESSIBILITY */
+
+
+/* Skip to main content:
+   https: //accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content
+*/
+
 a.skip-main {
     left: -999px;
     position: absolute;
@@ -25,4 +31,42 @@ a.skip-main:active {
     text-align: center;
     font-size: 1.2em;
     z-index: 999;
+}
+
+/* For keyboard focus: 
+   https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability
+*/
+*:focus {
+    outline: 2px dashed black;
+}
+
+/* OpenDyslexic: 
+   https: //opendyslexic.org/ */
+
+@font-face {
+    font-family: 'opendyslexic';
+    src: url('../fonts/OpenDyslexic-Regular.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'opendyslexic';
+    src: url('../fonts/OpenDyslexic-Italic.otf') format('opentype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'opendyslexic';
+    src: url('../fonts/OpenDyslexic-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opendyslexic';
+    src: url('../fonts/OpenDyslexic-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
 }

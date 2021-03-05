@@ -8,8 +8,10 @@ repository: brennanbrown/cset
 twitter: cset
 github: brennanbrown
 
-paginate: 4
-paginate_path: "/:num/"
+port: 13130
+
+# paginate: 4
+# paginate_path: "/:num/"
 
 google_analytics:
 comments: false
@@ -27,14 +29,27 @@ plugins:
   - jekyll-paginate
 permalink: /:title
 
-theme_switcher: false
-
 # Allows all pages to be put into `_pages` folder
 # for easier navigation and better SEO.
 collections:
   pages:
     output: true
     permalink: /:title
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type:
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "_pages"
+      type:
+    values:
+      layout: "page"
+
 
 # Exclude from processing.
 exclude:
