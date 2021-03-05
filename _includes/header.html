@@ -6,7 +6,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <input type="button" onclick="changeFont()" class="btn btn-dark btn-sm mr-3 my-2" id="od-button"
+            <input type="button" onclick="changeFont()" class="btn btn-info btn-sm mr-3 my-2" id="od-button"
                 value="Enable OpenDyslexic" />
 
             <div class="collapse navbar-collapse" id="navbarsExample09">
@@ -34,10 +34,9 @@
                     </li>
                 </ul>
                 <form class="form-inline">
-                    <i aria-hidden="true" class="fa fa-search"></i>
+                    <label for="search-input">🔍</label>
                     <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)"
-                        placeholder="Search CSET..." type="text" class="form-control ml-2" />
-                    <label for="search-input"></label>
+                        placeholder="Search CSET..." type="text" class="form-control" />
                 </form>
             </div>
         </nav>

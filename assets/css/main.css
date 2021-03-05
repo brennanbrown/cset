@@ -47,6 +47,14 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: #006ce0;
+}
+
+.btn-info {
+  background-color: #2f7d8a;
+}
+
 .information {
   margin-bottom: 350px;
 }
