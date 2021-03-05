@@ -148,4 +148,4 @@ For our calendar and scheduling, we use [Tockify](https://tockify.com/), and for
 
 For accessibility, the [OpenDyslexic](https://opendyslexic.org) typeface is by [Abbie Gonzalez](https://github.com/antijingoist/opendyslexic).
 
-For search, we use [Simply Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search) by [Christian Fei](https://github.com/christian-fei)
+For search, we use [Simply Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search) by [Christian Fei](https://github.com/christian-fei).
