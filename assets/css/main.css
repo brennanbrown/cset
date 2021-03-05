@@ -64,9 +64,22 @@ img {
   color: #888 !important;
 }
 
+#results-container {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
 @media only screen and (max-width : 768px) {
   .information {
     margin-top: 70px;
     margin-bottom: 650px;
   }
+
+  #results-container {
+    display: none;
+    margin-top: 250px;
+  }
+
 }
