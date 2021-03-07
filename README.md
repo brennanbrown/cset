@@ -96,7 +96,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-7. Browse to [http://localhost:4000](http://localhost:4000)
+7. Browse to [http://localhost:4040](http://localhost:4040)
 
 If you encounter any errors during this process, check that you have installed all the prerequisites in [Requirements](https://jekyllrb.com/docs/installation/#requirements).
 
@@ -146,6 +146,6 @@ In addition, it uses the static site generator [Jekyll](https://jekyllrb.com/), 
 
 For our calendar and scheduling, we use [Tockify](https://tockify.com/), and for our contact form, we use [TypeForm](https://www.typeform.com/).
 
-For accessibility, we use the [OpenDyslexic](https://opendyslexic.org) typeface is by [Abbie Gonzalez](https://github.com/antijingoist/opendyslexic).
+For accessibility, we use the [OpenDyslexic](https://opendyslexic.org) typeface by [Abbie Gonzalez](https://github.com/antijingoist/opendyslexic).
 
 For search, we use [Simply Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search) by [Christian Fei](https://github.com/christian-fei).

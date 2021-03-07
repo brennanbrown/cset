@@ -1,13 +1,14 @@
     <header class="container mb-5">
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light rounded">
             <a class="navbar-brand" href="/"><i class="fas fa-laptop-code"></i>CSET</a>
+
+            <input type="button" onclick="changeFont()" class="btn btn-info btn-sm mr-3 my-2" id="od-button"
+                value="Enable OpenDyslexic" />
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
                 aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <input type="button" onclick="changeFont()" class="btn btn-info btn-sm mr-3 my-2" id="od-button"
-                value="Enable OpenDyslexic" />
 
             <div class="collapse navbar-collapse" id="navbarsExample09">
                 <ul class="navbar-nav mr-auto">
@@ -36,7 +37,7 @@
                 <form class="form-inline">
                     <label for="search-input">🔍</label>
                     <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)"
-                        placeholder="Search CSET..." type="text" class="form-control" />
+                        placeholder="Search CSET..." type="text" class="form-control ml-2" />
                 </form>
             </div>
         </nav>

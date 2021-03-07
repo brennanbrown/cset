@@ -8,7 +8,7 @@ repository: brennanbrown/cset
 twitter: cset
 github: brennanbrown
 
-port: 13130
+port: 4040
 
 # paginate: 4
 # paginate_path: "/:num/"
