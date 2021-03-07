@@ -8,7 +8,7 @@
   <h3 align="center">Calgary Society for Equity in Technology</h3>
 
   <p align="center">
-    Calgary Society for Equity in Tech is a local volunteer-administered collective that offers low cost classes/events in technology to the Calgary community. 
+    Calgary Society for Equity in Tech is a local volunteer-administered collective that offers low cost classes/events in technology to the Calgary community.
     <br />
     <a href="https://github.com/brennanbrown/cset"><strong>Explore the docs »</strong></a>
     <br />
@@ -24,13 +24,13 @@
 <!-- BADGES -->
 <p align="center">
 <a href="https://app.netlify.com/sites/cset/deploys"><img src="https://api.netlify.com/api/v1/badges/c2a6183f-a3d3-4262-b2d8-c560ac9bd776/deploy-status" alt="Netlify Status"></a>
-<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/cset"> 
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/cset"> 
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/cset">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/cset">
 <a href="https://github.com/brennanbrown/cset/search?l=html"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennanbrown/cset"></a>
-<a href="https://github.com/brennanbrown/cset/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/cset"></a> 
+<a href="https://github.com/brennanbrown/cset/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/cset"></a>
 <a href="https://github.com/brennanbrown/cset/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brennanbrown/cset"></a>
 <!-- <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fcset?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fcset.svg?type=shield"/></a> -->
-<a href="https://github.com/brennanbrown/cset/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/cset"></a> 
+<a href="https://github.com/brennanbrown/cset/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/cset"></a>
 <a href="https://cset.netlify.app"><img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=Offline%21&label=Status&up_color=darkgreen&up_message=Online%21&url=https%3A%2F%2Fcset.netlify.app"></a>
 <br />
 <a href="https://github.com/brennanbrown?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/brennanbrown?label=Follow%20Me%21&style=social"></a>
@@ -43,9 +43,9 @@
 
 ## About The Project
 
-The Calgary Society for Equity in Technology (CSET) is a network of peers who facilitate classes, workshops, and skill-sharing events outside of a traditional institutional setting. Our classes and events are for people to share knowledge and experiences, make connections, and learn from one another. CSET attempts to make space for anyone to come together as we are: Queer, trans, femme, racialized, neurodivergent, low-income, marginalized in other ways, and active allies who follow safer space standards. This will always be something we must improve on and struggle to achieve. 
+The Calgary Society for Equity in Technology (CSET) is a network of peers who facilitate classes, workshops, and skill-sharing events outside of a traditional institutional setting. Our classes and events are for people to share knowledge and experiences, make connections, and learn from one another. CSET attempts to make space for anyone to come together as we are: Queer, trans, femme, racialized, neurodivergent, low-income, marginalized in other ways, and active allies who follow safer space standards. This will always be something we must improve on and struggle to achieve.
 
-CSET gives much credit to the formal institution that it bloomed from, and the work that the former directors/teachers/volunteers of Calgary School of Informal Education. Without their guidance of them, CSET would not exist. 
+CSET gives much credit to the formal institution that it bloomed from, and the work that the former directors/teachers/volunteers of Calgary School of Informal Education. Without their guidance of them, CSET would not exist.
 
 ![CSET Screen Shot](https://i.postimg.cc/6qCdXvwG/screenshot.jpg)
 
@@ -68,31 +68,31 @@ See [Requirements](https://jekyllrb.com/docs/installation/#requirements) for gui
 1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
 2. Install the jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems).
 
-```
+```bash
 gem install jekyll bundler
 ```
 
 3. Clone this repository.
 
-```
+```bash
 git clone https://github.com/brennanbrown/cset.git
 ```
 
 4. Change into your new directory.
 
-```
+```bash
 cd cset
 ```
 
 5. Install gems from the `Gemfile`.
 
-```
+```bash
 bundle install
 ```
 
 6. Build the site and make it available on a local server.
 
-```
+```bash
 bundle exec jekyll serve
 ```
 
@@ -140,12 +140,12 @@ See `LICENSE` for more information.
 
 ## Credit
 
-This website was created with the foundation of the original [SDF Public](http://cset.sdf.org/) website. 
+This website was created with the foundation of the original [SDF Public](http://cset.sdf.org/) website.
 
 In addition, it uses the static site generator [Jekyll](https://jekyllrb.com/), the [Bootstrap](https://getbootstrap.com/) CSS framework, and the [Font Awesome](https://fontawesome.com/) toolkit.
 
 For our calendar and scheduling, we use [Tockify](https://tockify.com/), and for our contact form, we use [TypeForm](https://www.typeform.com/).
 
-For accessibility, the [OpenDyslexic](https://opendyslexic.org) typeface is by [Abbie Gonzalez](https://github.com/antijingoist/opendyslexic).
+For accessibility, we use the [OpenDyslexic](https://opendyslexic.org) typeface is by [Abbie Gonzalez](https://github.com/antijingoist/opendyslexic).
 
 For search, we use [Simply Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search) by [Christian Fei](https://github.com/christian-fei).
